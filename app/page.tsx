@@ -188,10 +188,12 @@ export default function Home() {
                 <Phone className="mr-2 w-5 h-5" />
                 Call 602-875-4840
               </Button>
-              <Button size="lg" variant="outline" style={{borderColor: '#38BDF8', color: '#38BDF8'}} className="px-8 py-4 rounded-full border-2 hover:bg-sky-50 transition-all duration-300 text-base sm:text-lg w-full sm:w-auto">
-                Get Free Quote
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
+              <a href="#contact">
+                <Button size="lg" variant="outline" style={{borderColor: '#38BDF8', color: '#38BDF8'}} className="px-8 py-4 rounded-full border-2 hover:bg-sky-50 transition-all duration-300 text-base sm:text-lg w-full sm:w-auto">
+                  Get Free Quote
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </Button>
+              </a>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-8 mt-12 sm:mt-16 mb-12 sm:mb-16 px-4">
@@ -613,7 +615,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-gray-50">
+      <section id="contact" className="py-20 bg-gray-50 scroll-mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 px-4">
