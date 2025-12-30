@@ -129,7 +129,7 @@ Deno.serve(async (req: Request) => {
       },
       body: JSON.stringify({
         from: "Martinez Autoglass <onboarding@resend.dev>",
-        to: ["jaime@mag-autoglass.com"],
+        to: ["Martinezautoglassshop@gmail.com"],
         subject: `New Quote Request from ${firstName} ${lastName}`,
         html: emailHtml,
       }),

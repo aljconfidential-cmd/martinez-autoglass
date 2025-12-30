@@ -647,7 +647,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Email</div>
-                    <div className="text-sm sm:text-base text-sky-400 break-all">jaime@mag-autoglass.com</div>
+                    <div className="text-sm sm:text-base text-sky-400 break-all">Martinezautoglassshop@gmail.com</div>
                     <div className="text-xs sm:text-sm text-gray-600">Quick response guaranteed</div>
                   </div>
                 </div>
