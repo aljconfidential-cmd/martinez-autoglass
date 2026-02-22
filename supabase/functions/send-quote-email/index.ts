@@ -128,7 +128,7 @@ Deno.serve(async (req: Request) => {
         "Authorization": `Bearer ${resendApiKey}`,
       },
       body: JSON.stringify({
-        from: "Martinez Autoglass <onboarding@resend.dev>",
+        from: "Martinez Autoglass <quotes@mag-autoglass.com>",
         to: ["Martinezautoglassshop@gmail.com"],
         subject: `New Quote Request from ${firstName} ${lastName}`,
         html: emailHtml,
